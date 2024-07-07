@@ -163,6 +163,3 @@ def signin(request):
 def logout(request):
     auth.logout(request)
     return redirect('signin')
-
-def test(request):
-    return HttpResponse('mew')
